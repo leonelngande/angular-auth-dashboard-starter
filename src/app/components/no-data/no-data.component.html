@@ -1,0 +1,11 @@
+<ng-container *ngIf="textOnly; else cardDisplay">
+  Sorry, no {{dataType}} is currently available. Please keep visiting to be updated on {{dataType}} availability.
+</ng-container>
+
+<ng-template #cardDisplay>
+  <nb-card>
+    <nb-card-body>
+      Sorry, no {{dataType}} is currently available. Please keep visiting to be updated on {{dataType}} availability.
+    </nb-card-body>
+  </nb-card>
+</ng-template>
