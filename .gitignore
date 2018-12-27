@@ -8,6 +8,8 @@
 
 # IDEs and editors
 /.idea
+/.vscode
+/.github
 .project
 .classpath
 .c9/
