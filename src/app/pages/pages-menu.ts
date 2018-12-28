@@ -8,6 +8,16 @@ export const MENU_ITEMS: NbMenuItem[] = [
     home: true,
   },
   {
+    title: 'Exams',
+    icon: 'nb-list',
+    link: '/exams',
+  },
+  {
+    title: 'Courses',
+    icon: 'nb-list',
+    link: '/courses',
+  },
+  {
     title: 'Components',
     icon: 'nb-gear',
     children: [
